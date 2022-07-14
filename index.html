@@ -1,0 +1,690 @@
+<!DOCTYPE >
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>DEMO_SHOP_LEGO</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- <script src="main.js">  
+    </script>  -->
+</head>
+<body>
+<div id="Page">
+    <!-- Heading -->
+    <div id="heading">
+        <div id="heading__top">
+            <div id="heading__top__left">
+                <ul class="ul">
+                    <li><a class="navbar__heading__link" href="">Kênh người bán</a></li>
+                    <li><a class="navbar__heading__link"  href="">Tải ứng dụng</a></li>
+                    <li><a class="navbar__heading__link"  href="">Kết nối 
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div id="heading__top__right">
+                <ul class="ul">
+                    <li class="navbar__heading__link__thongbao" ><a class="navbar__heading__link"  href="">
+                        <i class="fa-solid fa-bell"></i>
+                        Thông báo</a>
+                        <div class="thongbao">
+                            <header class="thongbaomoinhan">
+                                <span>Thông báo mới nhận</span>
+                            </header>
+                                <ul class="list_thongbao">
+                                    <li><a href="" class="link_thongbao"><img class="img_thongbao" src="https://congthucmonngon.com/wp-content/uploads/2021/09/tuyet-chieu-chup-anh-do-an-ngon-mat-dep-lung-linh-nhu-food-blogger-thuc-thu-chi-bang-di.jpg" alt="anh">Mua 3 tặng 1 mô hình lego tranformer cực HOT</a></li>
+                                    <li><a href="" class="link_thongbao"><img class="img_thongbao" src="https://congthucmonngon.com/wp-content/uploads/2021/09/tuyet-chieu-chup-anh-do-an-ngon-mat-dep-lung-linh-nhu-food-blogger-thuc-thu-chi-bang-di.jpg" alt="anh">Ưu đãi cực lớn khi mua lego với gói voucher giảm 50%</a></li>
+                                    <li><a href="" class="link_thongbao"><img class="img_thongbao" src="https://congthucmonngon.com/wp-content/uploads/2021/09/tuyet-chieu-chup-anh-do-an-ngon-mat-dep-lung-linh-nhu-food-blogger-thuc-thu-chi-bang-di.jpg" alt="anh">Tham gia chương trình khảo sát nhận ngay ưu đãi 500k khi mua hàng</a></li>
+                                </ul>
+                            <footer class="xemtatca">
+                                <a href="#" class="link_xemtatca">Xem tất cả</span>
+                            </footer>
+                        </div>
+                    </li>
+                    <li><a class="navbar__heading__link"  href=""><i class="fa-solid fa-circle-question"></i>Hỗ trợ</a></li>
+                    <li class="navbar__heading__language">
+                        <a class="navbar__heading__link" href="">
+                         <i class="fa-solid fa-globe"></i>Ngôn ngữ
+                        </a>
+                        <div class="language">
+                                <ul class="list_language">
+                                    <li><a href="" class="link_language">Tiếng Anh </a></li>
+                                    <li><a href="" class="link_language">Tiếng Việt </a></li>
+                                </ul>
+                        </div>
+                    </li>
+                    <li><a class="navbar__heading__link js-taikhoan" >Tài khoản</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="heading__botton">
+            <div id="logo__shopee">
+                <a href=""><img class="logo_lego" src="https://brademar.com/wp-content/uploads/2022/05/LEGO-Logo-PNG-1998-%E2%80%93-Now-2.png" alt=""></a>
+            </div>
+            <div id="search">
+                <div class="search_input_box">
+                    <div class="search_box">
+                        <input id="input_search" type="text" placeholder="QUÀ TẶNG HẤP DẪN LÊN TỚI 1 TRIỆU ĐỒNG DÀNH CHO BÉ">
+                    </div>   
+                    <div class="icon_search">
+                        <a href="">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                <ul id="list_item">
+                    <li><a href="" class="item">Ninja Go</a></li>
+                    <li><a href="" class="item">Chiến xe Monster Jam</a></li>
+                    <li><a href="" class="item">Robot Tranformer</a></li>
+                    <li><a href="" class="item">Police</a></li>
+                    <li><a href="" class="item">Super Mario</a></li>
+                    <li><a href="" class="item">Siêu xe Mercerdes</a></li>
+                </ul></div>
+            </div>
+            <div id="cart">
+                <a href="" class="cart__logo"><i class="fa-cart-icon fa-solid fa-cart-arrow-down"></i></a>
+            </div>
+        </div>     
+    </div>
+    <!-- modal  layout -->
+    <div class="modal">
+        <div class="modal_manhinh">
+        </div>
+        <div class="modal_body">
+                <div class="login_register">
+                    <div class="register">
+                        <span>Đăng Ký</span>
+                    </div>
+                    <div class="btn_login">
+                        <a href="" class="btn_login_login" >Đăng nhập</a>
+                    </div>
+                </div>
+                <div class="form_register">
+                    <div class="input_register">
+                        <input type="text" class="input_register_register" placeholder="Email của bạn">
+                    </div>
+                    <div class="input_register">
+                        <input type="password" class="input_register_register" placeholder="Mật khẩu">
+                    </div>
+                    <div class="input_register">
+                        <input type="password" class="input_register_register" placeholder="Nhập lại mật khẩu">
+                    </div>
+                </div>
+                <div class="rules">
+                    <p class="rules_content">Bằng việc đăng ký, bạn đã đồng ý với Shop về <a class="rules_content_1" href="#">Điều khoản dịch vụ</a> & 
+                        <a class="rules_content_1" href="#">Chính sách bảo mật</a></p>
+                </div>
+                <div class="button_register">
+                    <div class="btn">
+                        <button type="button" class="btn_back js_btn_back"> TRỞ LẠI</button>
+                        <button type="button" class="btn_register" > ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="bottom_register">
+                    <div class="btn_social">
+                        <button type="button" class="btn_facebook" onclick="btn_fb()"> 
+                            <i class="fa-brands fa-facebook-square"></i>
+                            Kết nối với Facebook
+                        </button>
+                        <button type="button" class="btn_google" onclick="btn_google()" >
+                            <i class="fa-brands fa-google"></i>
+                            Kết nối với Google
+                        </button>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- Hinh anh quang cao -->
+    <div class="image">
+        <div clas="img_left">
+            <a href="#">
+                <img src="https://salt.tikicdn.com/ts/tmp/a7/3f/63/9720f0ab5fee52bbf6ad88fcb39d690e.jpg" 
+            alt="anh lego" class="img_lego">
+            </a>
+        </div>
+        <div class="img_right">
+            <div class="img_right_top">
+                <a href="" >
+                    <img class="img_lego_1" src="https://bizweb.dktcdn.net/100/004/338/files/ly-do-bo-me-nen-cho-cac-be-choi-do-choi-lego-1.jpg?v=1461297199632"
+                     alt="anh lego">
+                </a>
+            </div>
+            <div class="img_right_bottom">
+                <a href="">
+                    <img src="https://a.ipricegroup.com/trends-article/do-choi-lego-khong-chi-giup-nguoi-choi-thoa-man-dam-me-choi-ma-con-kich-thich-tu-duy-sang-tao-medium.jpg" 
+                    alt="anh lego" class="img_lego_2">
+                </a>
+            </div>
+      </div>
+    </div>
+    <!-- Noi dung -->
+    <div class="content">
+        <div class="content_form">
+            <div class="left_content">
+                <div class="Danhmuc">
+                    <div class="danhmuc_danhmuc">
+                        <span class="logo_list"><i class="fa-solid fa-bars"></i></span>
+                        <span class="logo_list">DANH MỤC SẢN PHẨM</span>
+                    </div>  
+                </div>
+                <div class="list_dmsanpham">
+                    <ul class="detail_list_sp">
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="https://dochoitreem.com/wp-content/uploads/2016/04/hotwheels-2016.jpg" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Xe điều khiển</a>
+                            </div>
+                            <ul class="menu_chil">
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Xe Cảnh Sát</a>
+                                </li>
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Xe Cứu Hỏa </a>
+                                </li >
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Xe Cấp Cứu</a>
+                                </li>
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Xe Tải</a>
+                                </li>
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Xe Congteno</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="https://meta.vn/Data/image/2016/05/25/do-choi-Lego-City-Fire-60105-hop.jpg" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Time city</a>
+                            </div>
+                        </li>
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="https://c.pxhere.com/photos/8a/44/lego_toys_building_blocks_kids_play_creativity_construction_game-1330575.jpg!d" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Khu vườn trên mây</a>
+                            </div>
+                        </li>
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="https://s3-ap-southeast-1.amazonaws.com/legohousevn/70632_alt1.jpg" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Ninja Go</a>
+                            </div>
+                            <ul class="menu_chil">
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Nhân vật Sensei Wu</a>
+                                </li>
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Nhân vật Fuchsia Ninja </a>
+                                </li >
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Nhân vật Lloyd Garmodon</a>
+                                </li>
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Nhân vật Nya</a>
+                                </li>
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Nhân vật General Olivia</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="https://cf.shopee.vn/file/5b3d0c715055c190ebec02ac7543b4f4" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Tranformer</a>
+                            </div>
+                            <ul class="menu_chil">
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Tranformer Sumurai</a>
+                                </li>
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Tranformer Robot </a>
+                                </li >
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Tranformer Octimus</a>
+                                </li>
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Tranformer XayA</a>
+                                </li>
+                                <li class="list_sp_menu_chil">
+                                    <a href="" class="link_sp_menu_chil">Tranformer Gadeln</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="https://cf.shopee.vn/file/994454c158805899f1d4f7123ec483f7" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Thể thao</a>
+                            </div>
+                        </li>
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="https://s3-ap-southeast-1.amazonaws.com/legohousevn/41318_alt2.jpg" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Trí tuệ</a>
+                            </div>
+                        </li>
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="https://cf.shopee.vn/file/a23b7a9427d0f3616a7b2d31eff88130" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Cảnh sát</a>
+                            </div>
+                        </li>
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="http://product.hstatic.net/200000305869/product/do-choi-xep-hinh-lego-60160-756190f19722_e19d42beb9204a1c852cc1da7650b97b_grande.jpg" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Nấu ăn</a>
+                            </div>
+                        </li>
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="https://s3-ap-southeast-1.amazonaws.com/legohousevn/60178_alt1.jpg" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Pikachu</a>
+                            </div>
+                        </li>
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="https://s3-ap-southeast-1.amazonaws.com/legohousevn/60183_alt1.jpg" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Pokemon</a>
+                            </div>
+                        </li>
+                        <li class="list_sp">
+                            <div class="img_list_sp">
+                                <img class="img_sp" src="https://salt.tikicdn.com/ts/product/7d/ca/c9/f604eab43f23de61ba2e5c4065bb9541.jpg" alt="">
+                            </div>
+                            <div class="name_sp">
+                                <a href="#" class="link_sp">Đồ chơi khác</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hang_lego_danmach">
+                    <div class="top_hang_lego_danmach">
+                        <div class="name_lego_danmach">
+                            HÃNG LEGO ĐAN MẠCH
+                        </div>
+                        <hr class="hr_lego_danmach"  />
+                    </div>
+                    <div class="bottom_lego_danmach">
+                        <ul class="ul_lego_danmach">
+                            <li class="li_lego_danmach">
+                                <div class="position_img_lego_danmach">
+                                    <img class="img_lego_danmach" src="https://bizweb.dktcdn.net/thumb/1024x1024/100/325/593/products/9882662360-1194967745.jpg?v=1559432865920" alt="">
+                                </div>
+                                <div class="position_link_lego_danmach">
+                                    <a href="" class="link_lego_danmach">Lego-friends Buổi tiệc của Lisa</a><br/>
+                                    <span class="text_lego_danmach">1,380,000 <u>đ</u></span>
+                                </div>
+                            </li>
+                            <li class="li_lego_danmach">
+                                <div class="position_img_lego_danmach">
+                                    <img class="img_lego_danmach" src="https://file.hstatic.net/1000295686/collection/maxresdefault_286123e37e3440ea9b5559c8bb9d469c.jpeg" alt="">
+                                </div>
+                                <div class="position_link_lego_danmach">
+                                    <a href="" class="link_lego_danmach">Lego-friends Mario giải cứu công chúa</a><br/>
+                                    <span class="text_lego_danmach">1,570,000 <u>đ</u></span>
+                                </div>
+                            </li>
+                            <li class="li_lego_danmach">
+                                <div class="position_img_lego_danmach">
+                                    <img class="img_lego_danmach" src="https://play-lh.googleusercontent.com/gNwPNBPXN5nCmCutkE6hhSO38jCVnEgdyZbqsKgXADL-BIIRswXLE6Sz_iVU0l3UGjv-" alt="">
+                                </div>
+                                <div class="position_link_lego_danmach">
+                                    <a href="" class="link_lego_danmach">Lego-friends Siêu anh hùng Marvel</a><br/>
+                                    <span class="text_lego_danmach">2,180,000 <u>đ</u></span>
+                                </div>
+                            </li>
+                            <li class="li_lego_danmach">
+                                <div class="position_img_lego_danmach">
+                                    <img class="img_lego_danmach" src="https://vn-test-11.slatic.net/p/866ab64258218d1fe9c465030afb97be.jpg" alt="">
+                                </div>
+                                <div class="position_link_lego_danmach">
+                                    <a href="" class="link_lego_danmach">Lego-friends Biệt đội lính cứu hỏa</a><br/>
+                                    <span class="text_lego_danmach">740,000 <u>đ</u></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cam_ket">
+                    <div class="top_cam_ket">
+                        <div class="header_cam_ket">
+                                <span class="text_cam_ket">CAM KẾT BÁN HÀNG</span>
+                        </div>
+                    </div>
+                    <div class="bottom_cam_ket">
+                        <ul class="ul_bottom_cam_ket">
+                            <li class="li_bottom_cam_ket">
+                                <div class="icon_check">
+                                    <div class="fa_check"><i class="fa-solid fa-check"></i></div>
+                                </div>
+                                <div class="content_cam_ket">
+                                    <span>
+                                        Đồ chơi có mức giá tốt nhất thị trường, rẻ nhất so với chất lượng cam kết
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="li_bottom_cam_ket">
+                                <div class="icon_check">
+                                    <div class="fa_check"><i class="fa-solid fa-check"></i></div>
+                                </div>
+                                <div class="content_cam_ket">
+                                    <span>
+                                        Tư vấn bán hàng chi tiết, đưa ra lời khuyên tốt nhất cho cho mẹ
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="li_bottom_cam_ket">
+                                <div class="icon_check">
+                                    <div class="fa_check"><i class="fa-solid fa-check"></i></div>
+                                </div>
+                                <div class="content_cam_ket">
+                                    <span>
+                                        Bảo đảm đúng 100% chất liệu đồ chơi, không gây hại cho trẻ
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="li_bottom_cam_ket">
+                                <div class="icon_check">
+                                    <div class="fa_check"><i class="fa-solid fa-check"></i></div>
+                                </div>
+                                <div class="content_cam_ket">
+                                    <span>
+                                        Sản phẩm giúp bé phát triển trí óc, tư duy, phát huy sáng tạo
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="li_bottom_cam_ket">
+                                <div class="icon_check">
+                                    <div class="fa_check"><i class="fa-solid fa-check"></i></div>
+                                </div>
+                                <div class="content_cam_ket">
+                                    <span>
+                                        Đồ chơi chính hãng nhập khẩu từ Hàn Quốc, Hoa Kỳ
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right_content">
+               <div class="top_right_content">
+                    <ul class="list_top_content">
+                        <li class="list_dm">
+                            <a href="" class="link_dm">TRANG CHỦ</a>
+                        </li>
+                        <li class="list_dm">
+                            <a href="" class="link_dm">SẢN PHẨM BÁN CHẠY</a>
+                        </li>
+                        <li class="list_dm">
+                            <a href="" class="link_dm">SẢN PHẨM KHUYẾN MÃI </a>
+                        </li>
+                        <li class="list_dm">
+                            <a href="" class="link_dm">SẢN PHẨM MỚI</a>
+                        </li>
+                        <li class="list_dm">
+                            <a href="" class="link_dm">CẨM NANG</a>
+                        </li>
+                    </ul>
+               </div>
+               <div class="bottom_right_content">
+                    <div class="content_bottom_right_content">
+                        <div class="sp_new">
+                            <div class="content_sp_new">
+                                <span class="spnew">
+                                Sản phẩm  mới
+                                </span>
+                                <span class="icon_back_back">
+                                    <button class="back">
+                                        <i class="icon_back fa-solid fa-chevron-left"></i>
+                                    </button>
+                                    <button class="back">
+                                        <i class="icon_back fa-solid fa-chevron-right"></i>
+                                    </button>
+                                </span>
+                            </div>                 
+                            <hr class="hr" width="99.9%" color="red"/>
+                        </div>
+                        <div class="categori_item">             
+                                 <div class="row1">
+                                        <div class="box_categori">
+                                            <div class="box">
+                                                <a class="link_categori" href="">
+                                                    <img class="link_img_categori" src="https://dochoitreem.com/wp-content/uploads/2019/08/Lego-Friends-Ti%E1%BB%87m-b%C3%A1nh-pizza-c%E1%BB%A7a-Heartlake-41311-500x480.jpg" alt="">
+                                                    <p class="name_categori">Buổi ca nhạc của Andrea</p>
+                                                </a>  
+                                                <p class="price_categori">1,850,000 <u>đ</u></p>
+                                            </div>
+                                        </div>           
+                                        <div class="box_categori">
+                                            <div class="box">
+                                                <a class="link_categori" href="">
+                                                    <img class="link_img_categori" src="https://dochoitreem.com/wp-content/uploads/2019/08/Lego-Friends-Dich-vu-giao-qua-tang-Heartlake-41310-500x480.jpg" alt="">
+                                                    <p class="name_categori">Dịch vụ giao quà tặng Heartlake</p>
+                                                </a>  
+                                                <p class="price_categori">1,230,000 <u>đ</u></p>
+                                            </div>
+                                        </div>      
+                                        <div class="box_categori">
+                                            <div class="box">
+                                                <a class="link_categori" href="">
+                                                    <img class="link_img_categori" src="https://dochoitreem.com/wp-content/uploads/2019/08/Lego-Friends-Xe-m%C3%A1y-b%C3%A3i-bi%E1%BB%83n-c%E1%BB%A7a-Mia-41306-500x480.jpg" alt="">
+                                                    <p class="name_categori">Tiệm bánh pizza của Heartlake</p>
+                                                </a>  
+                                                <p class="price_categori">1,510,000 <u>đ</u></p>
+                                            </div>
+                                        </div>
+                                        <div class="box_categori">
+                                            <div class="box">
+                                                <a class="link_categori" href="">
+                                                    <img class="link_img_categori" src="https://dochoitreem.com/wp-content/uploads/2019/08/Lego-Friends-Buoi-dieu-hanh-thu-cung-41301-500x480.jpg" alt="">
+                                                    <p class="name_categori">Buổi diễu hành cún cưng</p>
+                                                </a>  
+                                                <p class="price_categori">1,950,000 <u>đ</u></p>
+                                            </div>
+                                        </div>                                 
+                                </div>
+                                <div class="row">
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://dochoitreem.com/wp-content/uploads/2019/08/Lego-Friends-Xe-keo-va-cano-cua-andrea-41316-500x480.jpg" alt="">
+                                                <p class="name_categori">Xe kéo và cano của andrea</p>
+                                            </a>  
+                                            <p class="price_categori">1,150,000 <u>đ</u></p>
+                                        </div>
+                                    </div>           
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://dochoitreem.com/wp-content/uploads/2017/01/Lego-Classic-mau-do-10707-1-500x480.jpg" alt="">
+                                                <p class="name_categori">Lego Classic chiến hạng màu đỏ</p>
+                                            </a>  
+                                            <p class="price_categori">1,000,000 <u>đ</u></p>
+                                        </div>
+                                    </div>      
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://dochoitreem.com/wp-content/uploads/2019/08/Lego-Duplo-Chu-vet-dau-tien-10852-500x480.jpg" alt="">
+                                                <p class="name_categori">Lego Vẹt siêu quậy đầu to</p>
+                                            </a>  
+                                            <p class="price_categori">1,050,000 <u>đ</u></p>
+                                        </div>
+                                    </div>
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://lzd-img-global.slatic.net/g/p/417cfe43c4ca87a708d2c9bb4d6957ad.jpg_1200x1200q80.jpg_.webp" alt="">
+                                                <p class="name_categori">Lego Minecraft khu vườn vui nhộn</p>
+                                            </a>  
+                                            <p class="price_categori">1,350,000 <u>đ</u></p>
+                                        </div>
+                                    </div>                                 
+                             </div> 
+                             <div class="row">
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://c1img.onlinefriday.vn/tmp/12_2018/9/f1/6/2846013259_1545017031.png" alt="">
+                                                <p class="name_categori">Bộ lắp ráp hộp gạch classic sáng tạo</p>
+                                            </a>  
+                                            <p class="price_categori">1,120,000 <u>đ</u></p>
+                                        </div>
+                                    </div>           
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://bizweb.dktcdn.net/thumb/1024x1024/100/137/643/products/70652-alt1.jpg?v=1538900023640" alt="">
+                                                <p class="name_categori">Lego Ninja Go cuộc chiến cuối cùng</p>
+                                            </a>  
+                                            <p class="price_categori">2,850,000 <u>đ</u></p>
+                                        </div>
+                                    </div>      
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbsv4-l8KWXDrxrBTLx6vctbaqksR73b3MMQ&usqp=CAU" alt="">
+                                                <p class="name_categori">Lego Marvel Avengers - The End</p>
+                                            </a>  
+                                            <p class="price_categori">3,050,000 <u>đ</u></p>
+                                        </div>
+                                    </div>
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://s3-ap-southeast-1.amazonaws.com/legohousevn/70909_alt1.jpg" alt="">
+                                                <p class="name_categori">Lego Batman - cuộc chiến sinh tử</p>
+                                            </a>  
+                                            <p class="price_categori">1,550,000 <u>đ</u></p>
+                                        </div>
+                                    </div>   
+                                </div> 
+                                <div class="row">
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://vn-live-01.slatic.net/p/8d31f82461d477585eb979608af01413.jpg" alt="">
+                                                <p class="name_categori">Lego Spiderman - No way home</p>
+                                            </a>  
+                                            <p class="price_categori">2,150,000 <u>đ</u></p>
+                                        </div>
+                                    </div>           
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://vn-live-01.slatic.net/p/8790d72b2073f006ae7ab8ca2c4c8d0e.jpg" alt="">
+                                                <p class="name_categori">Lego Police - Khu phố hòa bình</p>
+                                            </a>  
+                                            <p class="price_categori">1,250,000 <u>đ</u></p>
+                                        </div>
+                                    </div>      
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://vn-test-11.slatic.net/p/866ab64258218d1fe9c465030afb97be.jpg" alt="">
+                                                <p class="name_categori">Lego Lính cứu hỏa - Biệu đội siêu tốc</p>
+                                            </a>  
+                                            <p class="price_categori">1,420,000 <u>đ</u></p>
+                                        </div>
+                                    </div>
+                                    <div class="box_categori">
+                                        <div class="box">
+                                            <a class="link_categori" href="">
+                                                <img class="link_img_categori" src="https://bizweb.dktcdn.net/thumb/1024x1024/100/137/643/products/42083-alt1.jpg?v=1538899936790" alt="">
+                                                <p class="name_categori">Lego Siêu xe Mercerdes - BenZ</p>
+                                            </a>  
+                                            <p class="price_categori">5,150,000 <u>đ</u></p>
+                                        </div>
+                                    </div>   
+                                </div> 
+                                <div class="xem_them">
+                                    <button class="button_xem_them">Xem thêm</button>
+                                </div>                                                       
+                         </div>      
+                     </div>
+               </div>
+            </div>
+        </div>   
+        <div class="footer">
+            <div class="top_footer">
+                    <ul class="list_top_footer">
+                        <li class="list_footer">
+                            <a href="" class="link_footer">CÂU HỎI THƯỜNG GẶP</a>
+                        </li>
+                        <li class="list_footer">
+                            <a href="" class="link_footer">CHÍNH SÁCH BẢO MẬT</a>
+                        </li>
+                        <li class="list_footer">
+                            <a href="" class="link_footer">CHÍNH SÁCH ĐỔI TRẢ HÀNG </a>
+                        </li>
+                        <li class="list_footer">
+                            <a href="" class="link_footer">GIAO HÀNG ĐẢM BẢO</a>
+                        </li>
+                        <li class="list_footer">
+                            <a href="" class="link_footer">GIỚI THIỆU</a>
+                        </li>
+                        <li class="list_footer">
+                            <a href="" class="link_footer">HƯỚNG DẪN MUA HÀNG</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="bottom_footer">
+                <div class="top_bottom_footer">
+                    <div class="content_top_bottom_footer">
+                        <span class="content_bottom"><i class="fa-solid fa-location-dot"></i>Địa chỉ shop: 29/5 Lê Đức Thọ, Phường 7, Quận Gò Vấp, TP. Hồ Chí Minh</span> 
+                    </div>
+                    <div class="content_top_bottom_footer">
+                        <div class="content_bottom"><i class="fa-solid fa-phone"></i>Điện thoại: 0979 08 6789</div> 
+                    </div>
+                    <div class="content_top_bottom_footer_1" >
+                        <img class="content_bottom" src="https://dochoitreem.com/wp-content/uploads/2016/11/dathongbaobocongthuong.png" alt="">
+                    </div>
+                    <div class="content_top_bottom_footer">
+                        <div class="content_bottom" > Copyright © 2015-2016 by Dochoitreem.com - All rights reserved</div>
+                    </div>
+                    <div class="content_top_bottom_footer">
+                        <div class="content_bottom" > Công ty cổ phần Yêu Trẻ chuyên kinh doanh buôn bán sỉ và lẻ các loại đồ chơi, đồ chơi trẻ em, đồ chơi cho bé, đồ chơi trẻ em an toàn như: búp bê, đất nặn, xe điều khiển từ xa.</div>
+                    </div>
+                </div>     
+            </div>
+        </div> 
+</div>
+<script>
+    const clickTK=document.querySelector('.js-taikhoan')
+    const clickBack=document.querySelector('.js_btn_back')
+    const modal=document.querySelector('.modal')
+    function show(){
+        modal.classList.add('open')
+    }
+    function hidden(){
+        modal.classList.remove('open')
+    }
+    clickTK.addEventListener('click',show)
+    clickBack.addEventListener('click',hidden)
+</script>
+</body>
+</html>
